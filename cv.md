@@ -80,7 +80,7 @@ UMG8900, SoftX 3000, BSC6600;
   Specialty: automation, electrical equipment, robotics.
 
 
-## English:
+## Languages:
 * English – intermediate;
 * Ukraine and Russian – native.
 
