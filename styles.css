@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    height: 60px;
+    background-color: rgb(241, 241, 241);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 1.5px double black;
+
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 20%;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8vw;
+    font-family: 'Merriweather', serif;
+
+}
+
+.header-menu {
+    width: 30%;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4vw;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+}
+
+.header-menu :hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: width 0.3s ease-out;
+}
+
+.section {
+    height: 100vh;
+    padding-top: 60px;
+}
+
+#home {
+    background-image: url(https://images.unsplash.com/photo-1516910817563-4df1c1b69058?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+}
+
+
+#about {
+    background-color: rgb(236, 234, 231);
+    display: flex;
+    justify-content: space-around;
+        
+}
+
+.my-foto {
+    margin: 45px 65px;
+    justify-content: space-around;
+    
+    
+}
+
+#about p{
+    font-size: 30px;
+    text-align: center;
+    margin: 45px 255px 0px 45px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+#works {
+    background-color: rgb(223, 233, 233);
+    
+}
+.my-works{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 25px 25px;
+}
+
+#contact {
+    background-color: darksalmon;
+}
+
+.contacts{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 25px;
+
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color:  rgb(241, 241, 241);
+    border: 1px solid black;
+
+}
+
+
+.footer p{
+    margin: 5px auto;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+.git{
+    height: 35px;
+    margin-right: 1%;
+    /* justify-content: space-around; */
+}
+
+.git:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+.rs-school{
+    height: 70%;
+    width: 60px;
+    margin-right: 3%;
+    /* justify-content: space-around; */
+  
+}
+
+.rs-school:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
